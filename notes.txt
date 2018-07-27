@@ -1,0 +1,44 @@
+var secondhand = document.getElementByID("second")
+var secondhand = document.getElementByID("minute")
+var secondhand = document.getElementByID("hour")
+
+function minSecRotation(minute) {
+	return (minSec/60)*360;
+
+function minSecRotation(minute) {
+	return (minute/12)*360;
+
+}
+
+unction minSecRotation(minute) {
+	return (minute/12)*360;
+}
+
+function setPostiion (elem, degRotation {
+	elem.style.transform = "rotate("degRotation+"deg)"; //I totally don't get this but sets rotation of items of clock
+}
+
+function umdate(now) {
+	var curSec = now.getSeconds();
+	var curMin = now.getMiniutes();
+	var curHour = now.gethours();
+
+	setPosition(second, minSecRotation(curSec));
+	setPosition(second, minSecRotation(curMin));
+	setPosition(second, hourRotation(curJHour));
+}
+
+function tick() {
+	var date = new Date();
+	update(date);
+	setTimeout(tick,1000);
+}
+
+tick();
+
+Get it to rotate, then add the intervals that match the current time.
+set interval to call one function with direction for how hands move.
+
+
+Clock all of it so it will be gauged on the current time.
+
