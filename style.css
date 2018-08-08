@@ -1,29 +1,10 @@
+.clockFace {
+}
+
 #clock {
 }
 
-#clock img {
-}
-
-#hour {
-  transform: rotate(60deg);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-#minute {
-  transform: rotate(45deg);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
 #second {
-  transform: rotate(7deg);
   position: absolute;
   z-index: 1;
   top: 0;
@@ -31,3 +12,35 @@
   left: 0;
   right: 0;
 }
+
+#secondHand {
+
+}
+
+#minuteHand {
+
+}
+
+#hourHand {
+  
+}
+
+#minute {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+#hour {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+
